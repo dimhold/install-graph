@@ -1,0 +1,316 @@
+{
+  "snapshot": "2026-08-26",
+  "generatedAt": "2026-08-26T19:51:23.546Z",
+  "projects": [
+    {
+      "id": "frontend-a",
+      "kind": "large front end, Angular + Selenium e2e",
+      "rootVersion": "0.0.0",
+      "direct": 70,
+      "deps": 29,
+      "devDeps": 41,
+      "installed": 1729,
+      "distinctNames": 1197,
+      "ratio": 24.7,
+      "ratioDistinct": 17.1,
+      "multiVersionNames": 165,
+      "maxNesting": 3,
+      "npmDepth": 12,
+      "npmNodes": 3488,
+      "npmDegraded": false,
+      "bytes": 380920515,
+      "mb": 363.3,
+      "files": 50649,
+      "dirs": 5834,
+      "bytesPerDirect": 5441722,
+      "tookMs": 36906,
+      "registry": {
+        "resolved": 1197,
+        "gone": 0,
+        "oneMaintainer": 601,
+        "oneMaintainerPct": 50.2,
+        "accounts": 613,
+        "packagesPerAccount": 1.95,
+        "topAccounts": [
+          {
+            "name": "nicolo-ribaudo",
+            "packages": 113,
+            "sharePct": 9.4
+          },
+          {
+            "name": "hzoo",
+            "packages": 109,
+            "sharePct": 9.1
+          },
+          {
+            "name": "existentialism",
+            "packages": 109,
+            "sharePct": 9.1
+          },
+          {
+            "name": "jlhwung",
+            "packages": 108,
+            "sharePct": 9
+          },
+          {
+            "name": "jonschlinkert",
+            "packages": 100,
+            "sharePct": 8.4
+          }
+        ],
+        "silentOverAYear": 677,
+        "silentOverAYearPct": 56.6,
+        "silentOverTwoYears": 506,
+        "silentOverTwoYearsPct": 42.3
+      }
+    },
+    {
+      "id": "frontend-b",
+      "kind": "large front end, Angular + Selenium e2e",
+      "rootVersion": "0.0.0",
+      "direct": 51,
+      "deps": 25,
+      "devDeps": 26,
+      "installed": 1542,
+      "distinctNames": 1055,
+      "ratio": 30.24,
+      "ratioDistinct": 20.69,
+      "multiVersionNames": 137,
+      "maxNesting": 3,
+      "npmDepth": 11,
+      "npmNodes": 3053,
+      "npmDegraded": true,
+      "bytes": 769385039,
+      "mb": 733.7,
+      "files": 67595,
+      "dirs": 6447,
+      "bytesPerDirect": 15085981,
+      "tookMs": 28586,
+      "registry": {
+        "resolved": 1055,
+        "gone": 0,
+        "oneMaintainer": 502,
+        "oneMaintainerPct": 47.6,
+        "accounts": 590,
+        "packagesPerAccount": 1.79,
+        "topAccounts": [
+          {
+            "name": "sindresorhus",
+            "packages": 100,
+            "sharePct": 9.5
+          },
+          {
+            "name": "jonschlinkert",
+            "packages": 99,
+            "sharePct": 9.4
+          },
+          {
+            "name": "nicolo-ribaudo",
+            "packages": 75,
+            "sharePct": 7.1
+          },
+          {
+            "name": "hzoo",
+            "packages": 74,
+            "sharePct": 7
+          },
+          {
+            "name": "existentialism",
+            "packages": 74,
+            "sharePct": 7
+          }
+        ],
+        "silentOverAYear": 680,
+        "silentOverAYearPct": 64.5,
+        "silentOverTwoYears": 564,
+        "silentOverTwoYearsPct": 53.5
+      }
+    },
+    {
+      "id": "frontend-c",
+      "kind": "large front end, Angular + Selenium e2e",
+      "rootVersion": "0.0.0",
+      "direct": 62,
+      "deps": 26,
+      "devDeps": 36,
+      "installed": 1709,
+      "distinctNames": 1181,
+      "ratio": 27.56,
+      "ratioDistinct": 19.05,
+      "multiVersionNames": 154,
+      "maxNesting": 3,
+      "npmDepth": 13,
+      "npmNodes": 3439,
+      "npmDegraded": false,
+      "bytes": 369511429,
+      "mb": 352.4,
+      "files": 63581,
+      "dirs": 5986,
+      "bytesPerDirect": 5959862,
+      "tookMs": 25858,
+      "registry": {
+        "resolved": 1181,
+        "gone": 0,
+        "oneMaintainer": 576,
+        "oneMaintainerPct": 48.8,
+        "accounts": 579,
+        "packagesPerAccount": 2.04,
+        "topAccounts": [
+          {
+            "name": "nicolo-ribaudo",
+            "packages": 108,
+            "sharePct": 9.1
+          },
+          {
+            "name": "hzoo",
+            "packages": 104,
+            "sharePct": 8.8
+          },
+          {
+            "name": "existentialism",
+            "packages": 104,
+            "sharePct": 8.8
+          },
+          {
+            "name": "jlhwung",
+            "packages": 103,
+            "sharePct": 8.7
+          },
+          {
+            "name": "jonschlinkert",
+            "packages": 99,
+            "sharePct": 8.4
+          }
+        ],
+        "silentOverAYear": 683,
+        "silentOverAYearPct": 57.8,
+        "silentOverTwoYears": 522,
+        "silentOverTwoYearsPct": 44.2
+      }
+    },
+    {
+      "id": "social-media",
+      "kind": "small tool, TypeScript CLI",
+      "rootVersion": "0.1.0",
+      "direct": 3,
+      "deps": 0,
+      "devDeps": 3,
+      "installed": 6,
+      "distinctNames": 6,
+      "ratio": 2,
+      "ratioDistinct": 2,
+      "multiVersionNames": 0,
+      "maxNesting": 1,
+      "npmDepth": 3,
+      "npmNodes": 32,
+      "npmDegraded": false,
+      "bytes": 38533876,
+      "mb": 36.7,
+      "files": 320,
+      "dirs": 40,
+      "bytesPerDirect": 12844625,
+      "tookMs": 1776,
+      "registry": {
+        "resolved": 6,
+        "gone": 0,
+        "oneMaintainer": 4,
+        "oneMaintainerPct": 66.7,
+        "accounts": 12,
+        "packagesPerAccount": 0.5,
+        "topAccounts": [
+          {
+            "name": "esbuild",
+            "packages": 2,
+            "sharePct": 33.3
+          },
+          {
+            "name": "types",
+            "packages": 1,
+            "sharePct": 16.7
+          },
+          {
+            "name": "hirokiosame",
+            "packages": 1,
+            "sharePct": 16.7
+          },
+          {
+            "name": "microsoft1es",
+            "packages": 1,
+            "sharePct": 16.7
+          },
+          {
+            "name": "typescript-bot",
+            "packages": 1,
+            "sharePct": 16.7
+          }
+        ],
+        "silentOverAYear": 0,
+        "silentOverAYearPct": 0,
+        "silentOverTwoYears": 0,
+        "silentOverTwoYearsPct": 0
+      }
+    },
+    {
+      "id": "fault-mcp",
+      "kind": "small library, MCP server",
+      "rootVersion": "0.1.0",
+      "direct": 6,
+      "deps": 3,
+      "devDeps": 3,
+      "installed": 141,
+      "distinctNames": 139,
+      "ratio": 23.5,
+      "ratioDistinct": 23.17,
+      "multiVersionNames": 1,
+      "maxNesting": 2,
+      "npmDepth": 9,
+      "npmNodes": 276,
+      "npmDegraded": false,
+      "bytes": 80221340,
+      "mb": 76.5,
+      "files": 4545,
+      "dirs": 703,
+      "bytesPerDirect": 13370223,
+      "tookMs": 4545,
+      "registry": {
+        "resolved": 139,
+        "gone": 0,
+        "oneMaintainer": 67,
+        "oneMaintainerPct": 48.2,
+        "accounts": 125,
+        "packagesPerAccount": 1.11,
+        "topAccounts": [
+          {
+            "name": "dougwilson",
+            "packages": 35,
+            "sharePct": 25.2
+          },
+          {
+            "name": "ulisesgascon",
+            "packages": 28,
+            "sharePct": 20.1
+          },
+          {
+            "name": "blakeembrey",
+            "packages": 22,
+            "sharePct": 15.8
+          },
+          {
+            "name": "ljharb",
+            "packages": 20,
+            "sharePct": 14.4
+          },
+          {
+            "name": "wesleytodd",
+            "packages": 14,
+            "sharePct": 10.1
+          }
+        ],
+        "silentOverAYear": 53,
+        "silentOverAYearPct": 38.1,
+        "silentOverTwoYears": 26,
+        "silentOverTwoYearsPct": 18.7
+      }
+    }
+  ]
+}
