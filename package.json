@@ -1,0 +1,17 @@
+{
+  "name": "install-graph",
+  "version": "1.0.0",
+  "description": "How much foreign code arrives per direct dependency: five real projects walked on disk, then every distinct package name resolved against the npm registry.",
+  "license": "MIT",
+  "author": "Dmitriy Semenkevich <dimhold@gmail.com>",
+  "type": "module",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "scan": "node scan.mjs --out out",
+    "maintainers": "node maintainers.mjs --out out",
+    "analyze": "node analyze.mjs --out out"
+  }
+}
