@@ -95,3 +95,18 @@ The first registry pass requested abbreviated packuments
 `maintainers: 0` — a number that would have been published as a finding had it
 not been obviously impossible. The pass was rerun over full packuments. Rule 5
 is unchanged; only the request format was wrong.
+
+---
+
+## Addendum 2026-08-27: who has already done this
+
+**Written after the run, which is the wrong order**, and recorded as an addendum
+for that reason. From 2026-08-27 this section is mandatory in every
+measurement's criteria and is written *before* the first number, next to the
+disproof condition.
+
+The amplification framing is published (see Prior work in `README.md`). What is
+not published, and what this measurement should have been framed around from the
+start, is the on-disk side: duplicate versions physically installed, bytes,
+files, and publishing accounts per real project. Registry-graph studies count
+distinct names and cannot see any of it.

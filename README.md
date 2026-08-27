@@ -72,3 +72,40 @@ with its own method.
 
 Five projects is a sample of five. The ratios here are observations, not base
 rates for the ecosystem.
+
+## Prior work, and what is actually new here
+
+Written **after** the measurement, on 2026-08-27, which is the wrong order and is
+recorded as such.
+
+The framing this README opens with — packages per direct dependency — **is
+published**. [*How Deep Does Your Dependency Tree Go? An Empirical Study of
+Dependency Amplification Across 10 Package Ecosystems*](https://arxiv.org/pdf/2512.14739)
+defines exactly that quantity as an amplification factor and reports it across
+ten ecosystems, with npm averaging 30.9 direct and 52.8 transitive dependencies.
+[Nakazawa's *Dependency Managers Don't Manage Your Dependencies*](https://cpojer.net/posts/dependency-managers-dont-manage-your-dependencies)
+makes the qualitative case, and [*A comprehensive study of bloated dependencies
+in the Maven ecosystem*](https://link.springer.com/article/10.1007/s10664-020-09914-8)
+finds 82.5% of transitive dependencies bloated.
+
+**Their 52.8 and this repository's 1,729 are not the same quantity, and the
+difference is the point.** Published work resolves the dependency graph from
+registry manifests and counts distinct names. This walks the installed
+`node_modules` and counts **physical copies on disk**, duplicate versions
+included. That is why a ratio of ~1.7 in their numbers and 24.7 here are not in
+conflict: they are different units.
+
+So what is left that the published work does not cover:
+
+- **532 of the 1,729 packages on one project's disk are second and third copies
+  of a name already installed** — 165 distinct names present at more than one
+  version at once. A graph counted by name cannot see that at all.
+- **Bytes and files on disk**: 363 MB and 50,649 files behind 70 lines of
+  `package.json`.
+- **Publishing accounts per project**: 613 distinct accounts behind one front
+  end, 50.2% of names with a single maintainer, 56.6% with no publish in over a
+  year — measured per real project rather than registry-wide.
+
+The general rule this follows, learned the same week on a full npm census:
+**dependency metadata is thoroughly occupied, what is physically on disk is
+not.**
