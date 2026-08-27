@@ -19,8 +19,14 @@
     "mb": 363.3,
     "files": 50649,
     "dirs": 5834,
+    "duplicateCopies": 532,
+    "duplicateBytes": 54782281,
+    "duplicateMb": 52.2,
+    "duplicateFiles": 7904,
+    "duplicateBytesPct": 14.4,
+    "sameVersionCopies": 313,
     "bytesPerDirect": 5441722,
-    "tookMs": 36906
+    "tookMs": 34159
   },
   {
     "id": "frontend-b",
@@ -42,8 +48,14 @@
     "mb": 733.7,
     "files": 67595,
     "dirs": 6447,
+    "duplicateCopies": 487,
+    "duplicateBytes": 107529764,
+    "duplicateMb": 102.5,
+    "duplicateFiles": 33835,
+    "duplicateBytesPct": 14,
+    "sameVersionCopies": 312,
     "bytesPerDirect": 15085981,
-    "tookMs": 28586
+    "tookMs": 30691
   },
   {
     "id": "frontend-c",
@@ -65,8 +77,14 @@
     "mb": 352.4,
     "files": 63581,
     "dirs": 5986,
+    "duplicateCopies": 528,
+    "duplicateBytes": 63542486,
+    "duplicateMb": 60.6,
+    "duplicateFiles": 24304,
+    "duplicateBytesPct": 17.2,
+    "sameVersionCopies": 332,
     "bytesPerDirect": 5959862,
-    "tookMs": 25858
+    "tookMs": 36258
   },
   {
     "id": "social-media",
@@ -88,8 +106,14 @@
     "mb": 36.7,
     "files": 320,
     "dirs": 40,
+    "duplicateCopies": 0,
+    "duplicateBytes": 0,
+    "duplicateMb": 0,
+    "duplicateFiles": 0,
+    "duplicateBytesPct": 0,
+    "sameVersionCopies": 0,
     "bytesPerDirect": 12844625,
-    "tookMs": 1776
+    "tookMs": 1525
   },
   {
     "id": "fault-mcp",
@@ -111,7 +135,13 @@
     "mb": 76.5,
     "files": 4545,
     "dirs": 703,
+    "duplicateCopies": 2,
+    "duplicateBytes": 33607,
+    "duplicateMb": 0,
+    "duplicateFiles": 11,
+    "duplicateBytesPct": 0,
+    "sameVersionCopies": 1,
     "bytesPerDirect": 13370223,
-    "tookMs": 4545
+    "tookMs": 4511
   }
 ]
