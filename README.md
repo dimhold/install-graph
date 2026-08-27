@@ -1,5 +1,7 @@
 # A seventh of node_modules is the same package, twice
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22128826.svg)](https://doi.org/10.5281/zenodo.22128826)
+
 Five real projects, measured **on disk** rather than in a lock file or a
 dependency graph. That distinction is the whole point: a graph resolved from
 registry manifests counts distinct names, and cannot see what is physically
