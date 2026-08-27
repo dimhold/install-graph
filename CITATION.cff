@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "install-graph"
+type: software
+authors:
+  - family-names: Semenkevich
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0009-3013-4978"
+version: "1.0.0"
+date-released: "2026-08-27"
+license: MIT
+repository-code: "https://github.com/dimhold/install-graph"
+abstract: "Measured on disk, not in a dependency graph: 14-17% of node_modules is a second copy of a package already installed, and around 60% of those copies are the same version twice."
+keywords:
+  - "npm"
+  - "dependencies"
+  - "software supply chain"
+  - "empirical software engineering"
+  - "measurement"
